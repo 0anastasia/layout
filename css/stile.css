@@ -456,7 +456,7 @@ input {
   margin-bottom: 60px;
   font-family: open-sans-bold, sans-serif;
   font-size: 14px;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -647,7 +647,7 @@ input {
 /* popup */
 
 .popup {
-  /*display: none;*/
+  display: none;
   position: relative;
   width: 100%;
   min-height: 100%;
@@ -669,7 +669,7 @@ input {
   position: absolute;
   background-image: url("../svg/form-x.svg");
   background-repeat: no-repeat;
-  background-color: red;
+
   background-color: transparent;
   border: 0;
   width: 19px;
@@ -793,7 +793,7 @@ input {
 
   font-family: open-sans-bold, sans-serif;
   font-size: 14px;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -1128,16 +1128,12 @@ input {
 
   .shop {
     margin: 0 27px;
-    margin: 0 auto;
+    margin: auto;
   }
 
   .products {
     max-width: 768px;
     flex-wrap: wrap;
-  }
-
-  .picture-product {
-    max-width: 290px;
   }
 
   .product-text {
