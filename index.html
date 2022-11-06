@@ -19,7 +19,7 @@
 
       <div class="menu">
 
-        </nav>
+        <nav>
         <ul class="menu-list">
           <li class="list-item"><a href="#0">главная</a></li>
           <li class="list-item"><a href="#0">посты</a></li>
@@ -30,7 +30,7 @@
         </ul>
         </nav>
 
-        <div type="checkbox-menu">
+        <div class="checkbox-menu">
           <label class="menu__btn">
             <span class="hidden">открыть меню</span>
             <span></span>
@@ -49,7 +49,7 @@
     <!-- trends -->
 
     <section class="trends">
-      <h2 class="title" id="title-bigger"><a href="#0">сейчас в тренде</a></h2>
+      <h2 class="title" id="title-trends"><a href="#0">сейчас в тренде</a></h2>
 
       <div class="posts-trends">
         <article class="post-trend1">
@@ -96,7 +96,7 @@
     <!-- posts -->
     <div class="page">
       <main>
-        <section class="posts-list">
+        <div class="posts-list">
           <article class="post">
             <div class="picture-article">
               <img src="img/last-post1.jpg" alt="человек идет по пляжу">
@@ -198,7 +198,7 @@
             </div>
           </article>
 
-        </section>
+        </div>
       </main>
 
       <!-- new posts -->
@@ -265,10 +265,13 @@
           <label class="search">
             <span class="hidden">Поле поиска</span>
             <input type="search" placeholder="Найти..." class="search-input">
+          </label>
+          <label class="search">
             <button class="button-search" type="submit">
               <span class="hidden">Кнопка поиска</span>
             </button>
           </label>
+          
         </form>
 
         <h2 class="title"><a href="#0">рассылка</a></h2>
@@ -334,8 +337,8 @@
             </div>
             <div class="purchase">
               <div class="price">
-                <div class="past-price">1000&#8381</div>
-                <div class="new-price">800&#8381</div>
+                <div class="past-price">1000&#8381;</div>
+                <div class="new-price">800&#8381;</div>
               </div>
               <button class="to-the-store">в магазин</button>
             </div>
@@ -354,11 +357,11 @@
           <div class="product-text">
             <h3 class="product-name"><a href="#0">кукла "зайчик"</a></h3>
             <div class="product-description">
-              <p>Интерьерная рукодельная кукла &laquoЗайчик&raquo, созданию которой посвящена <a href="#0" class="product-link">весенняя серия постов </a> в блоге и несколько подкастов.</p>
+              <p>Интерьерная рукодельная кукла &laquo;Зайчик&raquo;, созданию которой посвящена <a href="#0" class="product-link">весенняя серия постов </a> в блоге и несколько подкастов.</p>
             </div>
             <div class="purchase">
               <div class="price">
-                <div class="new-price">3500&#8381</div>
+                <div class="new-price">3500&#8381;</div>
               </div>
               <button class="to-the-store">в магазин</button>
             </div>
@@ -376,12 +379,12 @@
           <div class="product-text">
             <h3 class="product-name"><a href="#0">шестиугольная рамка</a></h3>
             <div class="product-description">
-              <p>Hеобычная рамка для украшения дома из видео <a href="#0" class="product-link">&laquoКак сделать рамку из подручных средств за 30 минут&raquo</a></p>
+              <p>Hеобычная рамка для украшения дома из видео <a href="#0" class="product-link">&laquo;Как сделать рамку из подручных средств за 30 минут&raquo;</a></p>
             </div>
             <div class="purchase">
               <div class="price">
-                <div class="past-price">500&#8381</div>
-                <div class="new-price">400&#8381</div>
+                <div class="past-price">500&#8381;</div>
+                <div class="new-price">400&#8381;</div>
               </div>
               <button class="to-the-store">в магазин</button>
             </div>
@@ -415,8 +418,10 @@
             <div class="popap-checkbox">
               <h5 class="popap__title">Вы подписан на e-mail рассылку?</h5>
               <label class="checkbox-group">
-                <p><input type="radio" name="check" class="checkbox">Да</p>
-                <p><input type="radio" name="check" class="checkbox">Нет</p>
+                <span><input type="radio" name="check" class="checkbox">Да</span>
+              </label>
+              <label class="checkbox-group">  
+                <span><input type="radio" name="check" class="checkbox">Нет</span>
               </label>
             </div>
 
