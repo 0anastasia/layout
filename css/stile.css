@@ -651,7 +651,7 @@ input {
 /* popup */
 
 .popup {
-  /*display: none;*/
+  display: none;
   position: relative;
   width: 100%;
   min-height: 100%;
